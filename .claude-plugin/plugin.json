@@ -1,0 +1,34 @@
+{
+    "name": "ads",
+    "description": "Create and manage ad campaigns on Meta, Google, TikTok, and more. Spy on competitor ads across ad libraries. Generate ad creatives with AI. Use when you need to launch a campaign, find out why ROAS dropped, see what ads a competitor is running, create ad images, or pull a performance report. Manages campaigns, ad sets, ads, and keywords. Uploads media. Pulls performance metrics with date, placement, and demographic breakdowns. The ad library lets you browse any advertiser's active ads, creative formats, and landing pages. AI studio generates images and copy from a brief. Draft-first: every create starts as a draft, nothing publishes without explicit approval. Supports Facebook, Instagram, Google Search, and TikTok. Multi-account for agencies.",
+    "author": {
+        "name": "AdKit",
+        "email": "contact@adkit.so"
+    },
+    "homepage": "https://adkit.so",
+    "repository": "https://github.com/adkit/adkit-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "meta ads",
+        "google ads",
+        "tiktok ads",
+        "ads manager",
+        "campaign management",
+        "ad library",
+        "ai ads",
+        "ad creative",
+        "facebook ads",
+        "instagram ads",
+        "advertising",
+        "paid media",
+        "ad generation",
+        "performance marketing",
+        "ad audit",
+        "roas",
+        "ad spend",
+        "competitor ads",
+        "competitor spy",
+        "ad spy"
+    ]
+}
