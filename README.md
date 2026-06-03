@@ -2,6 +2,8 @@
 
 # Ads MCP - Manage your ads from your AI agent
 
+[![GitHub stars](https://img.shields.io/github/stars/adkit/ads-mcp?style=flat&logo=github&color=f97316)](https://github.com/adkit/ads-mcp/stargazers) [![Latest release](https://img.shields.io/github/v/release/adkit/ads-mcp?color=f97316)](https://github.com/adkit/ads-mcp/releases) [![MCP Registry](https://img.shields.io/badge/MCP-Registry-f97316)](https://registry.modelcontextprotocol.io) [![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+
 **Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, and Reddit Ads** from any MCP-compatible AI agent — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(LinkedIn and X coming soon.)_
 
 > **Draft-first:** every change starts as a draft — nothing goes live without your explicit approval. Multi-account for agencies and teams.
