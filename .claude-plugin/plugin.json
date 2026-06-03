@@ -6,10 +6,16 @@
         "email": "contact@adkit.so"
     },
     "homepage": "https://adkit.so",
-    "repository": "https://github.com/adkit/adkit-plugin",
+    "repository": "https://github.com/adkit/ads-mcp",
     "version": "1.0.0",
     "license": "MIT",
     "keywords": [
+        "ads mcp",
+        "google ads mcp",
+        "meta ads mcp",
+        "tiktok ads mcp",
+        "mcp",
+        "model context protocol",
         "meta ads",
         "google ads",
         "tiktok ads",
