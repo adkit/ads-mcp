@@ -1,4 +1,4 @@
-# Ads MCP — by AdKit
+# Ads MCP — Manage your ads from any AI agent
 
 **Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, and TikTok Ads** from any MCP-compatible AI assistant — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat.
 
