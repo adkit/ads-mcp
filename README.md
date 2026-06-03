@@ -1,18 +1,18 @@
-![Ads MCP - let your AI agents manage your ads across Google Ads, Meta Ads, and TikTok Ads](https://adkit.so/images/og-image.png)
+![Ads MCP - let your AI agents manage your ads across Google Ads, Meta Ads, TikTok Ads, and Reddit Ads](./assets/cover.png)
 
-# Ads MCP - Manage your ads from any AI agent
+# Ads MCP - Manage your ads from your AI agent
 
-**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, and TikTok Ads** from any MCP-compatible AI assistant — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat.
+**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, and Reddit Ads** from any MCP-compatible AI assistant — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(LinkedIn and X coming soon.)_
 
 > **Draft-first:** every change starts as a draft — nothing goes live without your explicit approval. Multi-account for agencies and teams.
 
 ## What it does
 
-- **Create campaigns** — Build campaigns from scratch with audience research, keyword targeting, and media uploads
-- **Analyze performance** — Pull metrics with date, placement, and demographic breakdowns; diagnose why ROAS dropped
-- **Spy on competitor ads** — Search real ad libraries to research strategies, creative formats, and landing pages
-- **Generate creatives** — Use AI to create ad images and copy from a brief
-- **Connect ad accounts** — Link multiple Meta, Google, and TikTok accounts in one workspace
+- 🚀 **Create campaigns** — Build campaigns from scratch with audience research, keyword targeting, and media uploads
+- 📊 **Analyze performance** — Pull metrics with date, placement, and demographic breakdowns; diagnose why ROAS dropped
+- 🕵️ **Spy on competitor ads** — Search real ad libraries to research strategies, creative formats, and landing pages
+- 🎨 **Generate creatives** — Use AI to create ad images and copy from a brief
+- 🔗 **Connect ad accounts** — Link multiple Google, Meta, TikTok, and Reddit accounts in one workspace
 
 ## Platforms & tools
 
@@ -21,6 +21,8 @@
 | **Google Ads** | Search campaigns, keyword targeting, performance analysis, optimization |
 | **Meta Ads** (Facebook + Instagram) | Campaign creation, audience targeting, performance breakdowns, competitor ad spying |
 | **TikTok Ads** | Campaign creation and performance analysis |
+| **Reddit Ads** | Campaign creation and performance analysis |
+| **LinkedIn Ads · X Ads** | _Coming soon_ |
 
 ## Install
 
