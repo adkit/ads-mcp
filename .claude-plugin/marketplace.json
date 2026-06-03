@@ -1,7 +1,7 @@
 {
   "name": "adkit",
   "metadata": {
-    "description": "AdKit — Ads MCP for Claude. Create, analyze, and spy on ad campaigns across Google Ads, Meta Ads, and TikTok Ads from any AI assistant."
+    "description": "AdKit — Ads MCP for Claude. Create, analyze, and spy on ad campaigns across Google Ads, Meta Ads, and TikTok Ads from any AI agent."
   },
   "owner": {
     "name": "AdKit",

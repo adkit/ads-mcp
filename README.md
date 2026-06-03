@@ -2,7 +2,7 @@
 
 # Ads MCP - Manage your ads from your AI agent
 
-**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, and Reddit Ads** from any MCP-compatible AI assistant — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(LinkedIn and X coming soon.)_
+**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, and Reddit Ads** from any MCP-compatible AI agent — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(LinkedIn and X coming soon.)_
 
 > **Draft-first:** every change starts as a draft — nothing goes live without your explicit approval. Multi-account for agencies and teams.
 
@@ -88,7 +88,7 @@ The plugin connects to the AdKit MCP server, which manages your ad accounts acro
 
 ## Learn more
 
-- [Google Ads MCP](https://adkit.so/features/ads-mcp/google) — connect Google Ads to your AI assistant
+- [Google Ads MCP](https://adkit.so/features/ads-mcp/google) — connect Google Ads to your AI agent
 - [Meta Ads MCP](https://adkit.so/features/ads-mcp/meta) — connect Facebook & Instagram Ads
 - [TikTok Ads MCP](https://adkit.so/features/ads-mcp/tiktok) — connect TikTok Ads
 - [Claude integration](https://adkit.so/integrations/claude) — full setup guide for Claude
