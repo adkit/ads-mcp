@@ -98,7 +98,11 @@ The plugin connects to the AdKit MCP server, which manages your ad accounts acro
 
 ## Strategy skills
 
-For campaign planning and platform-specific strategy, pair this plugin with the free [Ads Strategy Skills](https://github.com/adkit/skills).
+For campaign planning and platform-specific strategy, pair this plugin with the free [Ads Strategy Skills](https://github.com/adkit/ads-skills).
+
+## Connect
+
+[Website](https://adkit.so) · [X](https://x.com/TryAdkit) · [YouTube](https://www.youtube.com/@TryAdKit) · [LinkedIn](https://linkedin.com/company/adkit-ads) · [Facebook](https://www.facebook.com/TryAdkit)
 
 ## License
 
