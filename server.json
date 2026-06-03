@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "so.adkit/ads",
+  "name": "io.github.adkit/ads",
   "title": "Ads MCP",
-  "description": "Manage ad campaigns across Google Ads, Meta Ads, TikTok Ads, and Reddit Ads from any MCP client — Claude, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads. Draft-first, multi-account.",
-  "version": "1.0.0",
+  "description": "Create, launch & analyze ad campaigns, spy on competitors — Meta, Google, TikTok & Reddit.",
+  "version": "1.0.3",
   "websiteUrl": "https://adkit.so",
   "repository": {
     "url": "https://github.com/adkit/ads-mcp",
