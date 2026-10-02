@@ -1,0 +1,11 @@
+{
+  "name": "adkit-ads",
+  "version": "1.0.6",
+  "description": "Ads Manager by AdKit: launch, manage and analyze PPC advertising campaigns on Google Ads, Meta Ads (Facebook Ads and Instagram Ads), TikTok Ads, LinkedIn Ads, Reddit Ads, Microsoft Ads and X Ads. Performance reporting, budgets, drafts, media uploads, and a library of 1M+ competitor ads. Uses the hosted AdKit MCP server.",
+  "mcpServers": {
+    "adkit": {
+      "httpUrl": "https://mcp.adkit.so",
+      "description": "Hosted AdKit MCP server (streamable HTTP). Signs in with OAuth in the browser on first connection; nothing to install."
+    }
+  }
+}
