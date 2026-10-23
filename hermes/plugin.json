@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "adkit",
+  "version": "1.0.0",
+  "description": "Run Google Ads, Meta (Facebook, Instagram), TikTok, LinkedIn, Microsoft, Reddit, and X ads from Hermes: launch campaigns as drafts, pull performance reports, browse competitor ads in the ad library, and generate ad creatives.",
+  "author": {
+    "name": "AdKit",
+    "email": "contact@adkit.so",
+    "url": "https://adkit.so"
+  },
+  "homepage": "https://adkit.so/features/ads-mcp",
+  "repository": "https://github.com/adkit/ads-mcp",
+  "license": "MIT",
+  "keywords": [
+    "google ads",
+    "meta ads",
+    "facebook ads",
+    "instagram ads",
+    "tiktok ads",
+    "linkedin ads",
+    "microsoft ads",
+    "reddit ads",
+    "x ads",
+    "advertising",
+    "ppc",
+    "ad library",
+    "competitor ads",
+    "campaign management",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "adkit": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}

@@ -104,6 +104,15 @@ Add to `~/.codex/config.toml`:
 url = "https://mcp.adkit.so"
 ```
 
+### Hermes Agent
+
+```
+hermes plugins install adkit
+hermes plugins enable adkit
+```
+
+Needs Node.js 20.18.1+. See [hermes/](./hermes/README.md).
+
 ## Skills
 
 | Skill           | Description                                  |
