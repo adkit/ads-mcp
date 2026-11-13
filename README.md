@@ -134,14 +134,14 @@ The plugin connects to the AdKit MCP server, which manages your ad accounts acro
 
 ## Learn more
 
-- [Google Ads MCP](https://adkit.so/features/ads-mcp/google) — connect Google Ads to your AI agent
-- [Meta Ads MCP](https://adkit.so/features/ads-mcp/meta) — connect Facebook & Instagram Ads
-- [TikTok Ads MCP](https://adkit.so/features/ads-mcp/tiktok) — connect TikTok Ads
-- [LinkedIn Ads MCP](https://adkit.so/features/ads-mcp/linkedin) — connect LinkedIn Ads
-- [Microsoft Ads MCP](https://adkit.so/features/ads-mcp/microsoft) — connect Microsoft (Bing) Ads
-- [Reddit Ads MCP](https://adkit.so/features/ads-mcp/reddit) — connect Reddit Ads
-- [X Ads MCP](https://adkit.so/features/ads-mcp/x) — connect X Ads
-- [Pinterest Ads MCP](https://adkit.so/features/ads-mcp/pinterest) — connect Pinterest Ads (beta)
+- Google Ads MCP: [connect Google Ads to your AI agent](https://adkit.so/features/ads-mcp/google)
+- Meta Ads MCP: [connect Facebook & Instagram Ads](https://adkit.so/features/ads-mcp/meta)
+- TikTok Ads MCP: [connect TikTok Ads](https://adkit.so/features/ads-mcp/tiktok)
+- LinkedIn Ads MCP: [connect LinkedIn Ads](https://adkit.so/features/ads-mcp/linkedin)
+- Microsoft Ads MCP: [connect Microsoft (Bing) Ads](https://adkit.so/features/ads-mcp/microsoft)
+- Reddit Ads MCP: [connect Reddit Ads](https://adkit.so/features/ads-mcp/reddit)
+- X Ads MCP: [connect X Ads](https://adkit.so/features/ads-mcp/x)
+- Pinterest Ads MCP: [connect Pinterest Ads (beta)](https://adkit.so/features/ads-mcp/pinterest)
 - [Claude integration](https://adkit.so/integrations/claude) — full setup guide for Claude
 - [AdKit Dashboard](https://adkit.so) — account management and documentation
 
