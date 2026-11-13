@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.adkit/ads",
-  "title": "Ads Manager by AdKit: Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads",
-  "description": "PPC advertising on Google Ads, Meta Ads (Facebook Ads), TikTok Ads, LinkedIn Ads, Reddit Ads & more.",
-  "version": "1.0.6",
-  "websiteUrl": "https://adkit.so",
+  "title": "Ads MCP Server by AdKit",
+  "description": "Run Meta, Google, TikTok, LinkedIn, Microsoft, Reddit, X and Pinterest ads from your AI agent.",
+  "version": "1.0.7",
+  "websiteUrl": "https://adkit.so/features/ads-mcp",
   "repository": {
     "url": "https://github.com/adkit/ads-mcp",
     "source": "github"
