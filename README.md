@@ -153,6 +153,10 @@ For campaign planning and platform-specific strategy, pair this plugin with the 
 
 [Website](https://adkit.so) · [X](https://x.com/TryAdkit) · [YouTube](https://www.youtube.com/@TryAdKit) · [LinkedIn](https://linkedin.com/company/adkit-ads) · [Facebook](https://www.facebook.com/TryAdkit)
 
+## Docs server
+
+[`docs-server/`](./docs-server/index.mjs) is a small local MCP server that answers questions about AdKit from this README and the skills: setup per AI app, hosted tools, ad platforms, example prompts. It needs no login and does not manage ads; for that, connect the hosted server above. Run it with `npm start` or the Dockerfile.
+
 ## License
 
 MIT

@@ -1,0 +1,19 @@
+{
+    "name": "adkit-ads-mcp-docs",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Docs server for the hosted AdKit MCP: setup guides, hosted tools, platforms, example prompts and skills, read from this repository.",
+    "type": "module",
+    "main": "docs-server/index.mjs",
+    "scripts": {
+        "start": "node docs-server/index.mjs"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.32.2",
+        "zod": "4.6.7"
+    }
+}
