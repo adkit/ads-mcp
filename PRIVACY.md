@@ -14,6 +14,6 @@ Ad account data, campaign settings, and performance metrics may be passed throug
 
 The plugin does not include analytics or tracking.
 
-Full privacy policy: https://adkit.so/privacy
+Full privacy policy: https://adkit.so/legal/privacy
 
 Contact: contact@adkit.so

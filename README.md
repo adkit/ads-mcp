@@ -6,7 +6,7 @@
 
 Hosted at `mcp.adkit.so` · [Overview and setup guides](https://adkit.so/features/ads-mcp)
 
-**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, Microsoft Ads, Reddit Ads, and X Ads** from any MCP-compatible AI agent — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(Pinterest and Snapchat coming soon.)_
+**Ads MCP** is a Model Context Protocol (MCP) server for managing ad campaigns across **Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, Microsoft Ads, Reddit Ads, and X Ads** from any MCP-compatible AI agent — Claude, Claude Code, ChatGPT, Cursor, and Codex. Create campaigns, analyze performance, and spy on competitor ads without leaving your chat. _(Pinterest Ads in beta, Snapchat coming soon.)_
 
 > **Draft-first:** every change starts as a draft — nothing goes live without your explicit approval. Multi-account for agencies and teams.
 
@@ -29,7 +29,8 @@ Hosted at `mcp.adkit.so` · [Overview and setup guides](https://adkit.so/feature
 | **Microsoft Ads** (Bing) | Campaign creation and performance analysis |
 | **Reddit Ads** | Campaign creation and performance analysis |
 | **X Ads** | Campaign creation and performance analysis |
-| **Pinterest Ads · Snapchat Ads** | _Coming soon_ |
+| **Pinterest Ads** (beta) | Campaign reports and changes through the Pinterest API |
+| **Snapchat Ads** | _Coming soon_ |
 
 ## Tools
 
@@ -136,8 +137,13 @@ The plugin connects to the AdKit MCP server, which manages your ad accounts acro
 - [Microsoft Ads MCP](https://adkit.so/features/ads-mcp/microsoft) — connect Microsoft (Bing) Ads
 - [Reddit Ads MCP](https://adkit.so/features/ads-mcp/reddit) — connect Reddit Ads
 - [X Ads MCP](https://adkit.so/features/ads-mcp/x) — connect X Ads
+- [Pinterest Ads MCP](https://adkit.so/features/ads-mcp/pinterest) — connect Pinterest Ads (beta)
 - [Claude integration](https://adkit.so/integrations/claude) — full setup guide for Claude
 - [AdKit Dashboard](https://adkit.so) — account management and documentation
+
+## One platform only
+
+Each platform also has its own server, with only that platform's tools: [Meta Ads](https://github.com/adkit/meta-ads-mcp), [Google Ads](https://github.com/adkit/google-ads-mcp), [TikTok Ads](https://github.com/adkit/tiktok-ads-mcp), [LinkedIn Ads](https://github.com/adkit/linkedin-ads-mcp), [Microsoft Ads](https://github.com/adkit/microsoft-ads-mcp), [Reddit Ads](https://github.com/adkit/reddit-ads-mcp), [X Ads](https://github.com/adkit/x-ads-mcp) and [Pinterest Ads](https://github.com/adkit/pinterest-ads-mcp).
 
 ## Strategy skills
 
