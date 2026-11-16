@@ -118,6 +118,10 @@ hermes plugins enable adkit
 
 Needs Node.js 20.18.1+. See [hermes/](./hermes/README.md).
 
+### Kiro
+
+[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=adkit&config=%7B%22url%22%3A%22https%3A//mcp.adkit.so%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D)
+
 ## Skills
 
 | Skill           | Description                                  |
@@ -160,6 +164,11 @@ For campaign planning and platform-specific strategy, pair this plugin with the 
 ## Docs server
 
 [`docs-server/`](./docs-server/index.mjs) is a small local MCP server that answers questions about AdKit from this README and the skills: setup per AI app, hosted tools, ad platforms, example prompts. It needs no login and does not manage ads; for that, connect the hosted server above. Run it with `npm start` or the Dockerfile.
+
+## Privacy and support
+
+- Privacy policy: [adkit.so/legal/privacy](https://adkit.so/legal/privacy)
+- Support: [contact@adkit.so](mailto:contact@adkit.so)
 
 ## License
 
