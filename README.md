@@ -46,6 +46,7 @@ Hosted at `mcp.adkit.so`. [Overview and setup guides](https://adkit.so/features/
 | `adkit_library` | Search 1M+ ads on Meta, Google, and LinkedIn |
 | `adkit_studio` | Generate ad images and copy from a brief |
 | `adkit_upload_file` | Upload images and videos for your ads |
+| `adkit_integrations` | Read connected GA4, Google Search Console, and Google Merchant Center data |
 | `adkit_feedback` | Report bugs or missing features to the AdKit team |
 | `adkit_checkin` | Confirm your setup worked during onboarding |
 
