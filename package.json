@@ -6,7 +6,8 @@
     "type": "module",
     "main": "docs-server/index.mjs",
     "scripts": {
-        "start": "node docs-server/index.mjs"
+        "start": "node docs-server/index.mjs",
+        "test": "node --test"
     },
     "engines": {
         "node": ">=20"

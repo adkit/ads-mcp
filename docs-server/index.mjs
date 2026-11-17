@@ -117,16 +117,17 @@ function readRepoFile(name) {
 
 /**
  * Split Markdown into the parts under each heading of one level ("## " or "### "), keyed by heading text.
+ * Lines inside fenced code blocks are never headings, so a "## comment" in a snippet cannot cut a section short.
  */
 function splitByHeading(markdown, marker) {
-    const headingPattern = new RegExp(`^${marker}`, 'm');
-    const parts = markdown.split(headingPattern).slice(1);
-    const entries = parts.map((part) => {
-        const [heading, ...body] = part.split('\n');
-        const text = body.join('\n');
-        return [heading.trim(), text.trim()];
-    });
-    return Object.fromEntries(entries);
+    const entries = [];
+    let inFence = false;
+    for (const line of markdown.split('\n')) {
+        if (/^\s*(```|~~~)/.test(line)) inFence = !inFence;
+        if (!inFence && line.startsWith(marker)) entries.push([line.slice(marker.length).trim(), []]);
+        else if (entries.length) entries.at(-1)[1].push(line);
+    }
+    return Object.fromEntries(entries.map(([heading, body]) => [heading, body.join('\n').trim()]));
 }
 
 /**
