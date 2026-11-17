@@ -3,7 +3,8 @@
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
-import { readFileSync } from 'node:fs';
+import { cpSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
@@ -71,6 +72,34 @@ function inputsFor(tool) {
 function textOf(result) {
     return (result.content ?? []).map((part) => part.text ?? '').join('\n');
 }
+
+test('a heading-like line inside a code block does not cut the setup guides short', async () => {
+    // Shell and TOML snippets often carry "## comment" lines. Before the fence-aware split, one inside the Codex
+    // snippet ended the Install section there: Codex lost the rest of its snippet and every later app vanished.
+    const dir = mkdtempSync(join(tmpdir(), 'ads-mcp-'));
+    try {
+        cpSync(REPO, dir, { recursive: true, filter: (path) => !/[\\/](node_modules|\.git)$/.test(path) });
+        symlinkSync(join(REPO, 'node_modules'), join(dir, 'node_modules'), 'dir');
+        const readme = readFileSync(join(dir, 'README.md'), 'utf8');
+        const patched = readme.replace(/^(### Codex[\s\S]*?```[a-z]*\n)/m, '$1## a comment, not a heading\n');
+        assert.notEqual(patched, readme, 'could not find the Codex snippet to patch');
+        writeFileSync(join(dir, 'README.md'), patched);
+
+        const copy = new Client({ name: 'docs-server-test', version: '0.0.0' });
+        await copy.connect(new StdioClientTransport({ command: process.execPath, args: [join(dir, 'docs-server/index.mjs')] }));
+        try {
+            const { tools: copyTools } = await copy.listTools();
+            const apps = copyTools.find((tool) => tool.name === 'get_setup_guide').inputSchema.properties.app.enum;
+            assert.deepEqual(apps, setupApps(), 'setup guides changed when a snippet gained a "## " line');
+            const codex = await copy.callTool({ name: 'get_setup_guide', arguments: { app: 'Codex' } });
+            assert.match(textOf(codex), /## a comment, not a heading\n\[mcp_servers\.adkit\]/);
+        } finally {
+            await copy.close();
+        }
+    } finally {
+        rmSync(dir, { recursive: true, force: true });
+    }
+});
 
 test('setup guides match the "### " headings under Install, and every snippet in them is closed', async () => {
     const apps = tools.find((tool) => tool.name === 'get_setup_guide').inputSchema.properties.app.enum;
